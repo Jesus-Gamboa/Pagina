@@ -69,7 +69,10 @@ departamentos = df_depto_anios['DEPARTAMENTO'].unique().tolist()
 ###############################################################################
 st.set_page_config(
     page_title='⚡Zonas No Interconectadas',
-    layout='centered')
+    layout='centered',
+    initial_sidebar_state= "collapsade" ,
+
+)
 st.markdown(
     '''
     <style>
