@@ -261,7 +261,7 @@ with st.container(border=True):
                 color = 'DEPARTAMENTO',
                 title = 'Top 5 Municipios - Energía Reactiva',
                 labels = {'MUNICIPIO': 'Municipios', 'ENERGÍA REACTIVA': 'Energía Reactiva (kWh)', 'DEPARTAMENTO': 'Departamento'},
-                #color_discrete_sequence=px.colors.sequential.Purpor,
+                color_discrete_sequence=px.colors.sequential.Purpor,
                 height=500
             )
 
